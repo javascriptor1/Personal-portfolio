@@ -50,6 +50,7 @@ a{
 
 #projects{
     background-color: #45557d;
+    height: auto;
    
 }
 .projects{
@@ -59,7 +60,7 @@ a{
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    margin-bottom: 6rem;
+    
 }
 
 .project-title1{
@@ -72,7 +73,89 @@ a{
 
 
 .project-image {
-    height: calc(100% - 2.8rem);
+    height: 45vh;
     width: 100%;
     object-fit: cover;
+    margin-bottom: 0;
+    display: block;
+   
+ 
 }
+
+.project-title{
+    
+    background: #181719;
+    color: #f0f0f0;
+    margin-top: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+  .img-title{
+      color:#181719;
+  }
+
+  .hover-effect:hover .img-title{
+    color: #ff7f50;
+  }
+  
+
+  @media (max-width: 576px){
+
+    .projects{
+        max-width: 470px;
+    }
+  }
+
+  #about{
+    background: #181719;
+    min-height: 400px;
+    color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .h1-footer{
+      font-size: 45px;
+      padding: 8px;
+  }
+
+  .p-footer{
+      font-style:italic ;
+  }
+
+  .fa-twitter{
+      font-size: 16px;
+  }
+  .fa-github{
+    font-size: 16px;
+}
+.social-media{
+    display: flex;
+   
+   
+}
+div > a:hover{
+    font-size: 1.2rem;
+    transform: 0.3s cubic-bezier(0.39, 0.58, 0,-0.99);
+    color: rgb(57, 137, 228);
+}
+
+hr{
+    border: 2px solid #be3144;
+}
+footer{
+    background-color:#181719; 
+    color: #f0f0f0;
+    /* padding-top: 20px; */
+    text-align: center;
+   
+}
+.copyright{
+    padding: 20px 0;
+}
+
