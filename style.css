@@ -17,10 +17,7 @@ body{
     align-items: center;
     justify-content: flex-start;
     flex-direction: row-reverse;
-    /* position: fixed; */
-  
-    
-    
+    position: fixed;
 }
 li{
     list-style: none;
@@ -42,5 +39,40 @@ a{
     color: #f0f0f0;
     align-items: center;
     justify-content: center;
+    text-align: center;
    
+}
+
+.myname{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+#projects{
+    background-color: #45557d;
+   
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.project-title1{
+
+    color: #f0f0f0;
+    text-decoration: underline;
+    padding-top: 70px;
+    text-align: center;
+}
+
+
+.project-image {
+    height: calc(100% - 2.8rem);
+    width: 100%;
+    object-fit: cover;
 }
